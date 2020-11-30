@@ -1,0 +1,168 @@
+<!DOCTYPE HTML>
+<!--
+	Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Local Statistic</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Logo -->
+								<a href="index.html" class="logo">
+									<span class="symbol"><img src="images/covidlogo.jpg" alt="" /></span><span class="title">COVID-19 Resource Zone</span>
+								</a>
+
+							<!-- Nav -->
+								<nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
+
+						</div>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<h2>Menu</h2>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="generic.html">About Us</a></li>
+							<li><a href="generic.html">Local Data</a></li>
+							<li><a href="generic.html">Latest News</a></li>
+							<li><a href="generic.html">How to Avoid?</a></li>
+							<li><a href="generic.html">Caught COVID-19</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<h1>Local Statistic</h1>
+							<header>
+								<h2>Find all the local statistic for your area</h2>
+							</header>
+							<span class="image main"><img src="images/local.png" alt="" /></span>
+							<p>There have been more than 1.4 million confirmed cases of coronavirus in the UK and more than 54,000 people have died, government figures show.</p>
+							<p>However, these figures include only people who have died within 28 days of testing positive for coronavirus and other measures suggest the number of deaths is higher.</p>
+							<span class="image main"><img src="images/map.png" alt="" /></span>
+							<p>Source: Office for National Statistics - Deaths involving COVID-19</p>
+							<h1>Find out what’s happening in your area</h1>
+							<p>Covid-19 has spread across the vast majority of neighbourhoods in England and Wales. With this interactive map you to see the number of deaths occurring in your area.</p>
+							<div class = "map">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39781.79614804859!2d-1.031067046413613!3d51.45150497241719!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48742078d93d3db7%3A0x2ae19f7fcefa7994!2sReading!5e0!3m2!1sen!2suk!4v1606130600746!5m2!1sen!2suk" width="100%" height="400px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+							<div class="boxed">
+							<ul>
+  						<li>Overall: 92</li>
+  						<li>March: 5</li>
+  						<li>April: 51</li>
+							<li>May: 20</li>
+							<li>June: 16</li>
+							</ul>
+						</div>
+						</div>
+						</div>
+					</div>
+
+
+					<script>
+					      // Initialize and add the map
+					      function initMap() {
+					        // The location of Uluru
+					        const uluru = { lat: 51.454266, lng: -0.978130 };
+					        // The map, centered at Uluru
+					        const map = new google.maps.Map(document.getElementById("map"), {
+					          zoom: 4,
+					          center: uluru,
+					        });
+					        // The marker, positioned at Uluru
+					        const marker = new google.maps.Marker({
+					          position: uluru,
+					          map: map,
+					        });
+					      }
+					    </script>
+
+
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<section>
+								<h2>Get in touch</h2>
+								<form method="post" action="#">
+									<div class="fields">
+										<div class="field half">
+											<input type="text" name="name" id="name" placeholder="Name" />
+										</div>
+										<div class="field half">
+											<input type="email" name="email" id="email" placeholder="Email" />
+										</div>
+										<div class="field">
+											<textarea name="message" id="message" placeholder="Message"></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send" class="primary" /></li>
+									</ul>
+								</form>
+							</section>
+							<section>
+								<h2>Follow</h2>
+								<ul class="icons">
+									<li><a href="#" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="#" class="icon brands style2 fa-facebook-f"><span class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="#" class="icon brands style2 fa-dribbble"><span class="label">Dribbble</span></a></li>
+									<li><a href="#" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
+									<li><a href="#" class="icon brands style2 fa-500px"><span class="label">500px</span></a></li>
+									<li><a href="#" class="icon solid style2 fa-phone"><span class="label">Phone</span></a></li>
+									<li><a href="#" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
+								</ul>
+							</section>
+							<ul class="copyright">
+								<li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
+
+
+<style type="text/css">
+      /* Set the size of the div element that contains the map */
+      #map {
+        height: 400px;
+        /* The height is 400 pixels */
+        width: 100%;
+        /* The width is the width of the web page */
+      }
+			.boxed {
+  border: 5px solid gray ;
+	padding: 50px;
+  margin: 20px;
+}
+    </style>
